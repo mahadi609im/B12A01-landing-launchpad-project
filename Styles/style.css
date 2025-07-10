@@ -20,7 +20,13 @@
 }
 
 .primary-bg{
+   background-color: #4d47ffc2;
+   transition: all linear .3s;
+}
+
+.primary-bg:hover{
    background-color: #4E47FF;
+   transform: translateY(-5px);
 }
 
 .title-color{
@@ -51,6 +57,15 @@ ul li{
 }
 
 /* Header section */
+#header-section{
+   width: 100%;
+   height: 100vh;
+   background-image: url('../Assets/Hero-bg.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-bottom: 116px;
+}
+
 .navbar{
    padding: 50px 0;
    display: flex;
@@ -65,4 +80,16 @@ ul li{
 
 .logo a{
    color: #4E47FF;
+}
+
+#banner{
+   max-width: 905px;
+   text-align: center;
+   margin: 100px auto;
+}
+
+#banner h1{
+   font-weight: bold;
+   font-size: 65px;
+   margin-bottom: 36px;
 }

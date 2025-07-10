@@ -7,6 +7,11 @@
    box-sizing: border-box;
 }
 
+input{
+   outline: none;
+   border: none;
+}
+
 .inter-font{
    font-family: "Inter", sans-serif;
    font-optical-sizing: auto;
@@ -213,4 +218,71 @@ main{
 
 .better-img img{
    border-radius: 48px;
+}
+
+#form-section{
+   padding: 71px 0px;
+   margin-bottom: 104px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#form-section h2{
+   color: black;
+   font-weight: bold;
+   font-size: 97px;
+   max-width: 528px;
+}
+
+#form-section form{
+   width: 497px;
+   height: 490px;
+}
+
+#form-section form div{
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+form div label{
+   display: block;
+   font-size: 18px;
+   color: black;
+   font-weight: 500;
+   margin-bottom: 10px;
+}
+
+form div input{
+   display: block;
+   font-size: 20px;
+   color: #00000080;
+   font-weight: 400;
+   padding: 20px 32px;
+   width: 100%;
+   border: 1px solid #D6DDED;
+}
+
+form div textarea{
+   display: block;
+   font-size: 20px;
+   color: #00000080;
+   font-weight: 400;
+   padding: 20px 32px;
+   width: 100%;
+   border: 1px solid #D6DDED;
+   height: 135px;
+   resize: none;
+}
+
+form button{
+   display: block;
+   font-size: 16px;
+   color: #fff;
+   font-weight: 700;
+   padding: 20px 0px;
+   width: 100%;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
 }

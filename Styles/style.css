@@ -1,3 +1,28 @@
-h3{
-   text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Common CSS */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.inter-font{
+   font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+
+.raleway-font{
+   font-family: "Raleway", sans-serif;
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+
+.primary-bg{
+   background-color: #4E47FF;
+}
+
+.title-color{
+   color: #252432;
 }

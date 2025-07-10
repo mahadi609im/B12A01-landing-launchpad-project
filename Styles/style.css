@@ -26,3 +26,43 @@
 .title-color{
    color: #252432;
 }
+
+.container{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+
+a{
+   text-decoration: none;
+}
+
+ul li{
+   list-style: none;
+}
+
+.button-style{
+   padding: 12px 36px;
+   font-weight: 700;
+   font-size: 16px;
+   color: #fff;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+/* Header section */
+.navbar{
+   padding: 50px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo{
+   font-weight: 900;
+   font-size: 34px;
+}
+
+.logo a{
+   color: #4E47FF;
+}
